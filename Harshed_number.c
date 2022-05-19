@@ -1,7 +1,7 @@
 #include<stdio.h>
- int main()
+int main()
 {
-    int n,num,r=0,sum=0;
+    int n,num,sum=0,r=0;
     scanf("%d",&num);
     n=num;
     while(num>0)
@@ -12,11 +12,10 @@
     }
     if(n%sum==0)
     {
-     printf("True");   
+       printf("True"); 
     }
     else
     {
         printf("False");
     }
-    return 0;
 }
